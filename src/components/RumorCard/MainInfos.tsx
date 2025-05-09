@@ -19,7 +19,7 @@ function MainInfos({
     <Stack sx={{ maxWidth: 'calc(100% - 62px)', height: '100%' }}>
       <MainHeader username={username} commuName={commuName} date={date} />
       <Typography mt="8px" mb="16px" sx={{ overflowWrap: 'break-word' }}>
-        Askip,
+        A l'aide !,
         {' '}
         {content}
       </Typography>

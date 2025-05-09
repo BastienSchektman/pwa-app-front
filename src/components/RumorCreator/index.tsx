@@ -95,7 +95,7 @@ function RumorCreator({ defaultCommuId }: Props) {
           />
           <TextField
             fullWidth
-            placeholder={!isFocused ? 'Askip, t’as une rumeur à partager ?' : undefined}
+            placeholder={!isFocused ? 'A l\'aide !, Aidez moi s\'il vous plait !!' : undefined}
             sx={{ '& fieldset': { border: 'none' } }}
             value={rumorText}
             onChange={handleOnChange}
@@ -114,7 +114,7 @@ function RumorCreator({ defaultCommuId }: Props) {
       height: 'auto',
     }}
   >
-    Askip,
+    A l'aide !,
     {' '}
 
   </InputAdornment>,
