@@ -1,0 +1,20 @@
+{
+  "areYouAware": "T’es au courant que... ",
+  "back": "Retour",
+  "cancel": "Annuler",
+  "confirmPassword": "Confirmer mot de passe",
+  "delete": "Supprimer",
+  "loading": "CHARGEMENT...",
+  "logOut": "Se déconnecter",
+  "modify": "Modifier",
+  "newPassword": "Nouvea mot de passe",
+  "ok": "OK",
+  "oldPassword": "Ancien mot de passe",
+  "password": "Mot de passe",
+  "pseudo": "Pseudo",
+  "readyToJoin": "Prêt à nous rejoindre ?",
+  "save": "Enregistrer",
+  "share": "Partager",
+  "commuNo": "Cette commu n'existe pas... encore 🤫",
+  "writeMessage": "Écrivez votre message..."
+}

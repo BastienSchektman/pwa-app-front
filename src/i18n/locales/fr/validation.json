@@ -1,0 +1,7 @@
+{
+  "confirmPasswordValidation": "Les mots de passes doivent être identiques",
+  "max20Char": "Ne peut pas contenir plus de 20 caractères",
+  "passwordValidation": "Doit contenir au moins 8 caractères, une majuscule, une minuscule, un chiffre et un caractère spécial",
+  "pseudoCharacters": "Uniquement des lettres, des chiffres et les caractères \"_\" et \"-\"",
+  "requiredField": "Champ obligatoire"
+}

@@ -1,0 +1,8 @@
+{
+  "NEW_USER": "Ton compte à bien été créé",
+  "UNKNOW_ERROR": "Une erreur innatendue est survenue",
+  "User already exist": "Compte déjà existant",
+  "User not exist": "L'utilisateur n'existe pas",
+  "WRONG_CREDENTIALS": "Utilisateur ou mot de passe incorrect",
+  "USER_NOT_FOUND": "L'utilisateur n'existe pas"
+}
