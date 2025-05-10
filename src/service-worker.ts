@@ -127,7 +127,7 @@ self.addEventListener("push", (event) => {
 
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
-  event.waitUntil(openUrl("https://pwa-react2.netlify.app"));
+  event.waitUntil(openUrl("https://rumorzzz.netlify.app"));
 });
 
 
