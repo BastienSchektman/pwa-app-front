@@ -1,8 +1,8 @@
 {
-  "joinUs": "Rejoins nous ici.",
-  "noAccount": "Pas encore de compte ?",
-  "alreadyAnAccount": "Déjà un compte ?",
-  "connectHere": "Connecte toi ici.",
-  "signIn": "Connecte toi",
-  "signUp": "Inscris toi"
+  "joinUs": "Découvre Echo ici.",
+  "noAccount": "Pas encore inscrit ?",
+  "alreadyAnAccount": "Déjà inscrit ?",
+  "connectHere": "Accède à ton espace ici.",
+  "signIn": "Connexion",
+  "signUp": "Inscription"
 }
