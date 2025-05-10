@@ -58,11 +58,10 @@ function LogoText({ link = false, onClick, from = 'signIn' }: Props) {
             userSelect: 'none',
           }}
         >
-          Rumo
-          <RChar>rrrrrrrrrrr</RChar>
-          <ZChar>z</ZChar>
-        </Typography>
-      </Stack>
+          Ec
+        <RChar>h</RChar>
+        <ZChar>o</ZChar>
+      </Typography>
 
       {!link && (
       <Stack justifyContent="center" direction="row">
