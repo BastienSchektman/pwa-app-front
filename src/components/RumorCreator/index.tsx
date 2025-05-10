@@ -114,7 +114,6 @@ function RumorCreator({ defaultCommuId }: Props) {
       height: 'auto',
     }}
   >
-    Askip,
     {' '}
 
   </InputAdornment>,

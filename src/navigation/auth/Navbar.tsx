@@ -51,9 +51,16 @@ const createNavLink = (
             spacing={1}
           >
             {isActive ? iconFilled : iconOutlined}
-            <Typography variant={isActive ? 'h5' : 'h6'} sx={{ display: { xs: 'none', sm: 'block' } }}>
+            <Typography
+              variant={isActive ? 'h5' : 'h6'}
+              sx={(theme) => ({
+                color: isActive ? theme.palette.primary.main : theme.palette.secondary.main,
+                display: { xs: 'none', sm: 'block' },
+              })}
+            >
               {name}
             </Typography>
+
           </Stack>
 
         </Stack>
