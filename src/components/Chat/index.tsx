@@ -22,7 +22,7 @@ function Chat({ commuId, isChatModalOpen }: Props) {
   const [messages, setMessages] = useState<{ _id: string, message: string, user: UserResponse,
     date: Date }[]>([]);
   console.log('Connecting to socket:', `${BASE_URL_CHAT}/api/chat`, commuId, user?.id);
-  const socket = useMemo(() => io(`${BASE_URL_CHAT}/chat?locationId=${commuId}&userId=${user?.id}`), [commuId, user]);
+  const socket = useMemo(() => io(`${BASE_URL_CHAT}/api/chat?locationId=${commuId}&userId=${user?.id}`), [commuId, user]);
 
   
   useEffect(() => {
