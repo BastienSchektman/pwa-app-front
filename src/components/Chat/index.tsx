@@ -23,7 +23,23 @@ function Chat({ commuId, isChatModalOpen }: Props) {
     date: Date }[]>([]);
   console.log('Connecting to socket:', `${BASE_URL_CHAT}/api/chat`, commuId, user?.id);
   const socket = useMemo(() => io(`${BASE_URL_CHAT}/chat?locationId=${commuId}&userId=${user?.id}`), [commuId, user]);
+
   
+  useEffect(() => {
+    console.log('Socket status (connected?):', socket.connected);
+
+    socket.on('connect', () => {
+      console.log('✅ Socket connected!', socket.id);
+    });
+
+    socket.on('connect_error', (err) => {
+      console.error('❌ Socket connection error:', err);
+    });
+
+    return () => {
+      socket.disconnect();
+    };
+  }, [socket]);
 
   useEffect(() => {
     socket.on('message', (message: { _id: string, message: string, user: UserResponse }) => {
