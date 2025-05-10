@@ -1,36 +1,25 @@
-// styles/colors.ts
-
-export type ColorsType = {
-  primary: string;
-  primaryLight: string;
-  primaryDark: string;
-  secondary: string;
-  secondaryLight: string;
-  secondaryDark: string;
-  background: string;
-  grey100: string;
-  grey200: string;
-  grey300: string;
-};
-
-export const LightColors: ColorsType = {
-  primary: '#37474F',
-  primaryLight: '#62727B',
-  primaryDark: '#102027',
-  secondary: '#00BFA5',
-  secondaryLight: '#5df2d6',
-  secondaryDark: '#008e76',
-  background: '#f5f5f5',
-  grey100: '#eeeeee',
-  grey200: '#e0e0e0',
-  grey300: '#bdbdbd',
+export const LightColors = {
+  primary: '#00A6FB',
+  primaryLight: '#33B9FF',
+  primaryDark: '#007ACC',
+  secondary: '#FF3366',
+  secondaryLight: '#FF6699',
+  secondaryDark: '#CC0044',
+  background: '#F4F7FA',
+  grey100: '#F9FAFB',
+  grey200: '#E5E7EB',
+  grey300: '#D1D5DB',
 };
 
 export const DarkColors = {
-  primary: '#00838F',
-  secondary: '#C2185B',
-  background: '#121212',
-  grey100: '#e0e0e0',
-  grey200: '#bdbdbd',
-  grey300: '#9e9e9e',
+  primary: '#00A6FB',
+  primaryLight: '#33B9FF',
+  primaryDark: '#007ACC',
+  secondary: '#FF3366',
+  secondaryLight: '#FF6699',
+  secondaryDark: '#CC0044',
+  background: '#1F2028',
+  grey100: '#2D2F38',
+  grey200: '#3C3E47',
+  grey300: '#4B4D56',
 };
