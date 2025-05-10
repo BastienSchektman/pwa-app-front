@@ -14,6 +14,5 @@ root.render(
     <App />
   </React.StrictMode>,
 );
-//comment
 
 serviceWorkerRegistration.register();
