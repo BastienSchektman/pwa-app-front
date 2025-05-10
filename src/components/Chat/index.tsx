@@ -21,32 +21,8 @@ function Chat({ commuId, isChatModalOpen }: Props) {
   const [value, setValue] = useState('');
   const [messages, setMessages] = useState<{ _id: string, message: string, user: UserResponse,
     date: Date }[]>([]);
-  // const socket = useMemo(() => io(`${BASE_URL_CHAT}/chat?locationId=${commuId}&userId=${user?.id}`), [commuId, user]);
+  const socket = useMemo(() => io(`${BASE_URL_CHAT}/chat?locationId=${commuId}&userId=${user?.id}`), [commuId, user]);
   
-  const socket = useMemo(() => {
-    const s = io(`${BASE_URL_CHAT}/api/chat`, {
-      query: {
-        locationId: commuId,
-        userId: user?.id,
-      },
-      transports: ['websocket'],
-    });
-  
-    console.log('👉 Tentative de connexion à :', `${BASE_URL_CHAT}/api/chat`);
-    s.on('connect', () => {
-      console.log('✅ Socket connecté ! ID :', s.id);
-    });
-    s.on('connect_error', (err) => {
-      console.error('❌ Erreur de connexion socket :', err.message);
-    });
-  
-    return s;
-  }, [commuId, user]);
-  
-  
-
-  console.log('👉 Connexion Socket.IO à :', `${BASE_URL_CHAT}/api/chat?locationId=${commuId}&userId=${user?.id}`);
-
 
   useEffect(() => {
     socket.on('message', (message: { _id: string, message: string, user: UserResponse }) => {
