@@ -59,9 +59,10 @@ function LogoText({ link = false, onClick, from = 'signIn' }: Props) {
           }}
         >
           Ec
-        <RChar>h</RChar>
-        <ZChar>o</ZChar>
-      </Typography>
+          <RChar>h</RChar>
+          <ZChar>o</ZChar>
+        </Typography>
+      </Stack>
 
       {!link && (
       <Stack justifyContent="center" direction="row">
