@@ -1,5 +1,5 @@
 {
-  "areYouAware": "T’es au courant que... ",
+  "areYouAware": "Tu as entendu parler de ça ?",
   "back": "Retour",
   "cancel": "Annuler",
   "confirmPassword": "Confirmer mot de passe",
@@ -12,7 +12,7 @@
   "oldPassword": "Ancien mot de passe",
   "password": "Mot de passe",
   "pseudo": "Pseudo",
-  "readyToJoin": "Prêt à nous rejoindre ?",
+  "readyToJoin": "Prêt à rejoindre la discussion ?",
   "save": "Enregistrer",
   "share": "Partager",
   "commuNo": "Cette commu n'existe pas... encore 🤫",
